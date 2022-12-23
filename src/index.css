@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-slate-100;
+  @apply bg-slate-100 dark:bg-slate-800;
 }
 
 ul {
@@ -26,9 +26,9 @@ h4,
 h5,
 h6 {
   font-family: "Oswald", sans-serif;
-  @apply text-slate-100 dark:text-slate-800;
+  @apply text-slate-800 dark:text-slate-100;
 }
 
 p {
-  @apply text-slate-100 dark:text-slate-400 text-sm leading-loose lg:text-base lg:leading-relaxed;
+  @apply text-slate-700 dark:text-slate-400 text-sm leading-loose lg:text-base lg:leading-relaxed;
 }

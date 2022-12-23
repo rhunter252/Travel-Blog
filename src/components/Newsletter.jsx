@@ -3,10 +3,10 @@ import React from "react";
 const Newsletter = () => {
   return (
     <>
-      <section className="py-20 px-5 bg-gradient-to-r from-indigo-600 to-slate-800">
+      <section className="py-20 px-5 bg-gradient-to-r from-indigo-600 to-slate-800 dark:to-slate-600">
         <div className="max-w-4xl mx-auto grid grid-cols-1 gap-8 text-center md:text-left md:grid-cols-2 md:gap-16 md:place-items-center">
           <article>
-            <h2 className="text-slate-100 text-3xl lg:text-4xl mb-4">
+            <h2 className="text-slate-100 text-3xl capitalize lg:text-4xl mb-4">
               Sign Up to the newsletter
             </h2>
             <p className="text-slate-100">
